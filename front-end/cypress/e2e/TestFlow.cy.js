@@ -4,7 +4,7 @@ describe("LoginFlow", () => {
   });
 
   it("login_flow_login_successful", () => {
-    cy.get("[name='email']").type("dung+octopus4@101digital.io");
+    cy.get("[name='email']").type("ntd24799@gmail.com");
 
     cy.get("[name='password']").type("Abc@123456");
 
