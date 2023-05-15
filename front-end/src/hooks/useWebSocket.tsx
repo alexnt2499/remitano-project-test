@@ -3,14 +3,14 @@ import { toast } from "react-toastify";
 import { useAppSelector } from "./useReactRedux";
 import { usePopup } from "../contexts/CommonPopupContext";
 import ReactPlayer from "react-player";
-const WS_URL = "ws://127.0.0.1:3000/cable";
+import config from "../configs/api-config";
 
 export const useWebSockets = () => {
   const { authData } = useAppSelector((state) => state.auth);
   const { openPopup, closePopup } = usePopup();
 
   useEffect(() => {
-    const websocket = new WebSocket(WS_URL);
+    const websocket = new WebSocket(config.BASE_URL_WEB_SOCKET);
 
     websocket.onopen = () => {
       console.log("connected");
