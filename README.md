@@ -11,4 +11,4 @@ This is Home Test of Remitano for Fullstack developer.
 
 [Backend README.md](./backend/README.md)
 
-[Frontend README.md](./font-end/README.md)
+[Frontend README.md](./front-end/README.md)
