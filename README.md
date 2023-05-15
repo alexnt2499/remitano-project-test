@@ -7,9 +7,7 @@ This is Home Test of Remitano for Fullstack developer.
 - Backend: Ruby, Ruby on rails.
 - Frontend: ReactJS, Typescript.
 
-## Prerequisites:
+## Readme:
 
-Read README.md:
-
-- Backend: './backend/README.md'
-- Frontend: './front-end/README.md'
+[Backend README.md](../backend/README.md)
+[Frontend README.md](../font-end/README.md)
