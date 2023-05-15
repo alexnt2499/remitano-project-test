@@ -1,12 +1,13 @@
-# Assessment Test Project
+# Front end
 
 ## Requirement
 
 The following **required** and **option** functionality is completed:
 
-- [x] Build UI and integrate Login feature.
-- [x] Build UI and integrate list invoice SEARCH, SORT, Pagination.
-- [x] Build UI and integrate create invoice.
+- [x] Build UI and integrate Login, Sign up feature.
+- [x] Build UI and integrate create video sharing.
+- [x] Build UI and integrate view list video sharing.
+- [x] Build infinite scrolling.
 - [x] Build Smart form component system with React Hook Form.
 - [x] Build State management with Redux/toolkit.
 - [x] Build Routing with React router.
@@ -23,7 +24,7 @@ Config environment variable:
 > DEV environment
 
 ```sh
-cd assessment-project-react-v2.2.2
+cd front-end
 yarn
 yarn dev
 
@@ -32,7 +33,7 @@ yarn dev
 > PROP environment
 
 ```sh
-cd assessment-project-react-v2.2.2
+cd front-end
 yarn build
 yarn preview
 
@@ -41,7 +42,7 @@ yarn preview
 > E2E Test
 
 ```sh
-cd assessment-project-react-v2.2.2
+cd front-end
 yarn dev
 yarn cy:e2e
 
@@ -50,7 +51,7 @@ yarn cy:e2e
 ## Production
 
 > Link Production
-> https://assessment-project-alex.vercel.app/
+> https://remitano-fe-deploy-vsh5.vercel.app/
 
 ## License
 
